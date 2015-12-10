@@ -31,7 +31,7 @@ myApp.config(function($routeProvider, $httpProvider) {
       }
     }).when('/page3', {
       templateUrl: 'partials/page3.html',
-      controller: 'Page3Ctrl',
+      // controller: 'Page3Ctrl',
       access: {
         requiredLogin: true
       }
